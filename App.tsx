@@ -11,7 +11,7 @@ export function App() {
       setFrame(frames[`0505-Taganka_EXT_Day_CAM-0${N}`]);
       if (N === 3750) N = 3000
       else N++
-    }, 60)
+    }, 40)
   }, []);
 
   useEffect(() => {
