@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html --public-url /webcam/",
-    "deploy": "push-dir --dir ./dist --branch master"
+    "deploy": "push-dir --dir ./dist --branch gh-pages"
   },
   "devDependencies": {
     "@types/node": "^13.7.7",
